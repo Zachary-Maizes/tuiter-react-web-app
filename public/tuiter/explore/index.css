@@ -30,13 +30,20 @@
 }
 .wd-explore .nav-tabs {
     font-size: 14px;
+    border-color: rgb(110,118,125);
+}
+
+.wd-explore .nav-tabs .active {
+    background-color: rgb(110,118,125);
+    border-color: rgb(110,118,125);
+    color: black;
 }
 
 .wd-tuit {
     border-color: rgb(100,118,125);
     border-width: 1px;
     border-top-style: solid;
-    min-height: 100px;
+    min-height: 110px;
 }
 
 .wd-tuit img {

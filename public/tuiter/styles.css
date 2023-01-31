@@ -83,8 +83,12 @@ img.wd-profile-img {
     color: white;
 }
 
+.wd-nav li.active {
+    background-color: rgb(110,118,125);
+}
+
 .wd-nav li.active * {
-    color: rgb(29,161,242);
+    color: black;
 }
 
 .wd-nav li a {
