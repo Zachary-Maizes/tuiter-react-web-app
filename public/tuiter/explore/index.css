@@ -1,20 +1,9 @@
-.wd-explore {
-    padding-left: 16px;
-}
-
 .wd-explore h2, .wd-explore h3, .wd-explore p {
     font-size: 13px;
 }
 
-.wd-top-bar {
-    padding-top: 16px;
-    left: 0;
-    right: 0;
-}
-
 .wd-searchbar {
     display: inline-block;
-    padding: 6px;
     border-radius: 8px;
     background-color: rgb(110,118,125);
     color: black;
@@ -37,23 +26,10 @@
 }
 
 .wd-explore .wd-settings-icon {
-    margin-right: 8px;
-    margin-top: 16px;
     height: 28px;
 }
 .wd-explore .nav-tabs {
-    margin-bottom: 16px;
     font-size: 14px;
-}
-
-.wd-explore .nav-link {
-    padding: 8px;
-}
-
-.wd-tuit, .wd-trending {
-    padding-left: 8px;
-    padding-bottom: 0;
-    margin-top: 20px;
 }
 
 .wd-tuit {
@@ -66,18 +42,14 @@
 .wd-tuit img {
     width: 100px;
     height: 100px;
-    position: absolute;
-    right: 16px;
-    top: 4px;
-    padding: 0;
 }
 
 .wd-follow-block li {
-    position: relative;
-    margin: 0;
     border-style: solid;
     border-color: rgb(100,118,125);
     border-width: 1px 2px;
+    width: 100%;
+    height: 58px;
 }
 
 .wd-follow-block li:nth-child(1) {
@@ -96,26 +68,13 @@
     display: inline-block;
 }
 
-.wd-follow-block li {
-    width: 100%;
-    height: 54px;
-    padding: 2px;
-}
-
 .wd-follow-block h2, .wd-follow-block p {
     font-size: 12px;
     margin: 0;
 }
 
-.wd-follow-block img {
-    display: inline;
-}
-
 .wd-follow-block button {
-    position: absolute;
-    right: 0px;
     height: 36px;
-    margin: 6px;
     border-style: none;
     border-radius: 16px;
     background-color: rgb(29,161,242);
