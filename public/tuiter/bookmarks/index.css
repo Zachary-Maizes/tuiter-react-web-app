@@ -1,0 +1,80 @@
+.wd-bookmarks {
+    margin-left: 8px;
+    margin-right: 8px;
+    border-width: 1px;
+    margin-bottom: 0;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+
+.wd-bookmarks h2, .wd-explore h3, .wd-explore p {
+    font-size: 15px;
+}
+
+.wd-top-bar {
+    border-color: rgb(47,51,54);
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.wd-tuit {
+    padding: 12px 10px 6px;
+    white-space: nowrap;
+}
+
+.wd-tuit>div {
+    white-space: normal;
+    display: inline-block;
+    padding: 0 6px;
+    vertical-align: top;
+}
+
+.wd-tuit .wd-author>* {
+    display: inline-block;
+}
+
+.wd-tuit .wd-content {
+    max-width: 506px;
+}
+
+.wd-tuit .wd-content img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.wd-tuit .wd-content .wd-content-box {
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47,51,54);
+}
+
+.wd-tuit .wd-content .wd-content-img-blurb {
+    padding: 12px;
+}
+
+.wd-tuit .wd-content .wd-content-img-reacts {
+    column-count: 4;
+}
+
+.wd-tuit .wd-content .wd-content-img-reacts>div {
+    text-align: center;
+}
+
+.wd-tuit .wd-content .wd-content-img-reacts>div>a>* {
+    display: inline-block;
+}
+
+.wd-tuit .wd-content .wd-content-img-reacts p {
+    padding-left: 12px;
+}
+
+.wd-tuiter .wd-likes * {
+    color: red;
+}
