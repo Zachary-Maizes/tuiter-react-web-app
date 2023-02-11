@@ -1,19 +1,20 @@
-.wd-explore h2, .wd-explore h3, .wd-explore p {
-    font-size: 13px;
+body {
+    padding-top: 16px;
 }
 
 .wd-searchbar {
     display: inline-block;
-    border-radius: 8px;
-    background-color: rgb(110,118,125);
+    border-radius: 48px;
+    background-color: white;
     color: black;
     width: calc(100% - 50px);
 }
 
 .wd-searchbar input {
     width: calc(100% - 36px);
-    background-color: rgb(110,118,125);
+    background-color: white;
     border-style: none;
+    color: black;
     height: 48px;
 }
 
@@ -39,6 +40,23 @@
     color: black;
 }
 
+.wd-tuit h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wd-tuit h2, .wd-tuit h3 {
+    font-size: 13px;
+}
+
+.wd-tuit h2 {
+    font-weight: bold;
+}
+
+.wd-tuit h3 {
+    color: var(--bs-body-color);
+}
+
 .wd-tuit {
     border-color: rgb(100,118,125);
     border-width: 1px;
@@ -51,44 +69,7 @@
     height: 100px;
 }
 
-.wd-follow-block li {
-    border-style: solid;
-    border-color: rgb(100,118,125);
-    border-width: 1px 2px;
-    width: 100%;
-    height: 58px;
-}
-
-.wd-follow-block li:nth-child(1) {
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-top-width: 2px;
-}
-
-.wd-follow-block li:nth-last-child(1) {
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-width: 2px;
-}
-
-.wd-follow-block li>* {
-    display: inline-block;
-}
-
-.wd-follow-block h2, .wd-follow-block p {
-    font-size: 12px;
-    margin: 0;
-}
-
-.wd-follow-block button {
-    height: 36px;
-    border-style: none;
-    border-radius: 16px;
-    background-color: rgb(29,161,242);
-    color: white;
-}
-
-.wd-explore .card {
+.wd-tuit {
     border-radius: 0;
     background-color: inherit;
     border-style: solid;
@@ -96,11 +77,11 @@
     border-color: rgb(47,51,54);
 }
 
-.wd-explore .card-img-top {
+.wd-tuit .tuit-img-top {
     border-radius: 0;
 }
 
-.wd-explore .card-img-overlay {
+.card-img-overlay h4 {
     color: black;
 }
 

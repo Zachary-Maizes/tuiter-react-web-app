@@ -4,29 +4,22 @@
     color: white;
 }
 
-.wd-tuiter h1, .wd-tuiter h2, .wd-tuiter h3, .wd-tuiter p {
-    /*margin: 2px 2px 8px 2px;*/
-}
-.wd-tuiter h1 {
+.wd-tuit h1 {
     font-size: 20px;
     font-weight: bold;
 }
-.wd-tuiter h2 {
+.wd-tuit h2 {
     font-weight: bold;
 }
-.wd-tuiter h3 {
+.wd-tuit h3 {
     font-weight: normal;
 }
-.wd-tuiter p {
+.wd-tuit p {
     color: rgb(110,118,125);
 }
 
 .wd-top-bar {
     top: 0;
-}
-
-.wd-top-bar h1, .wd-top-bar h2, .wd-top-bar h3, .wd-top-bar p {
-    /*margin: 0;*/
 }
 
 .wd-row {
@@ -51,53 +44,47 @@ img.wd-profile-img {
     border-radius: 24px;
 }
 
-.wd-nav li {
-    width: 100%;
-    color: rgb(110,118,125);
-    border-style: solid;
-    border-width: 1px;
-}
-
-.wd-nav li:nth-child(1) {
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-top-width: 2px;
-}
-
-.wd-nav li:nth-last-child(2) {
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-width: 2px;
-}
-
-.wd-nav li:nth-last-child(1) {
-    background-color: rgb(29,161,242);
-    border-style: none;
-    border-radius: 16px;
-    min-width: fit-content;
-}
-
-.wd-nav li:nth-last-child(1) * {
-    width: 100%;
-    text-align: center;
-    color: white;
-}
-
-.wd-nav li.active {
-    background-color: rgb(110,118,125);
-}
-
-.wd-nav li.active * {
-    color: black;
-}
-
-.wd-nav li a {
-    white-space: nowrap;
-    display: inline-block;
-    color: inherit;
-    text-decoration: none;
-}
-
 li {
     list-style: none;
+}
+
+.wd-who-to-follow-list h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wd-who-to-follow-list li {
+    padding: 0 10px;
+    width: 100%;
+    height: 58px;
+    background-color: var(--bs-list-group-bg);
+}
+
+.wd-who-to-follow-list li:nth-child(1) {
+    padding-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.wd-who-to-follow-list li:nth-last-child(1) {
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.wd-who-to-follow-list li>* {
+    display: inline-block;
+}
+
+.wd-who-to-follow-list h2, .wd-who-to-follow-list p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.wd-who-to-follow-list button {
+    height: 36px;
+    border-style: none;
+    border-radius: 16px;
+    background-color: rgb(29,161,242);
+    color: white;
 }
