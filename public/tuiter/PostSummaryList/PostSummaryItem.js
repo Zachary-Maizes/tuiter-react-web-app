@@ -8,7 +8,7 @@ const PostSummaryItem = (post) => {
           </div>
           <h2>${post.title}</h2>
       </div>
-      <img class="col-3 position-absolute end-0 me-2 top-0 mt-1 p-0" src="/public/images/${post.image}" />
+      <img class="col-3 position-absolute end-0 me-2 top-0 mt-1 p-0" src="/images/${post.image}" />
   </div>
   `);
 };

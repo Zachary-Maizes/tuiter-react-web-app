@@ -1,7 +1,7 @@
 const WhoToFollowListItem = (who) => {
   return (`
     <li class="position-relative">
-      <img class="wd-profile-img ms-1 mt-1" src="/public/images/${who.avatarIcon}" />
+      <img class="wd-profile-img ms-1 mt-1" src="/images/${who.avatarIcon}" />
       <div>
           <h2>${who.userName}</h2>
           <p>@${who.handle}</p>
